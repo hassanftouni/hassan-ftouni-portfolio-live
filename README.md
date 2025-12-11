@@ -1,10 +1,10 @@
-# Abdelmajid NIDNASSER - Portfolio Website
+# Hassan Ftouni - Portfolio Website
 
-A premium, credibility-first portfolio website for Abdelmajid NIDNASSER, PhD Candidate & Data Engineer with passione to Gen Ai and Machine Learning. Built with Next.js, shadcn/ui, and a custom dark theme to showcase expertise in AI, machine learning, and full-stack development.
+A premium, credibility-first portfolio website for Hassan Ftouni, Full Stack Developer & Designer with passione to Gen Ai and Machine Learning. Built with Next.js, shadcn/ui, and a custom dark theme to showcase expertise in AI, machine learning, and full-stack development.
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://nidnasser.me) (Replace with actual URL)
+[View Live Portfolio](https://hassanftouni.me) (Replace with actual URL)
 
 ## ✨ Features
 
@@ -46,7 +46,7 @@ A premium, credibility-first portfolio website for Abdelmajid NIDNASSER, PhD Can
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/NIDNASSER-Abdelmajid/portfolio.git
+   git clone https://github.com/hassanftouni/hassan-ftouni-portfolio-live.git
    cd portfolio
    ```
 
@@ -189,4 +189,4 @@ MIT License - feel free to use this template for your own portfolio.
 
 ---
 
-Built with ❤️ by [Abdelmajid NIDNASSER](https://nidnasser.me)
+Built with ❤️ by [Hassan Ftouni](https://hassanftouni.me)

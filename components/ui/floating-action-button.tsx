@@ -26,7 +26,7 @@ const quickActions = [
   {
     icon: Mail,
     label: "Email Me",
-    href: "mailto:abdelmajidnidnasser1@gmail.com",
+    href: "mailto:hassan.ftounne@gmail.com",
     color: "bg-green-500 hover:bg-green-600 text-white",
     description: "Send an email"
   },

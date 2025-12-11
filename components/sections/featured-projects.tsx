@@ -9,11 +9,11 @@ import { ProjectCard, ProjectData } from "@/components/ui/project-card";
 // Projects updated to reflect your latest work.
 const projects: ProjectData[] = [
     {
-        id: "ai-career-toolkit",
-        title: "AI-Powered Career Toolkit",
-        description: "A full-stack career platform using Django and React to generate AI-powered resumes and provide interview preparation.",
+        id: "ai-fitness",
+        title: "AI-Powered Fitness & Nutrition App",
+        description: "A full-stack project using Django and Nodejs to generate AI-powered images  and provide workout plan and meal plan .",
         status: "In Development",
-        tags: ["React", "Django", "OpenAI API", "JWT", "Docker", "AWS"],
+        tags: ["Node.js", "Django", "OpenAI API",  "React Native"],
         icon: Bot,
         color: "text-purple-400",
         bgColor: "bg-purple-400/10",
@@ -23,34 +23,36 @@ const projects: ProjectData[] = [
     githubHref: "#" // Disabled: no public repository yet
     },
     {
-        id: "ensa-khouribga-website",
-        title: "ENSA Khouribga University Website",
+        id: "portfolio-website",
+        title: " Portfolio Website",
         description:
-            "A modern, responsive website for ENSA Khouribga University to showcase academic programs, attract new students, and highlight faculty excellence.",
+        "A modern, responsive website for the project portfolio.",
         status: "Live",
-        tags: ["Next.js", "React", "Tailwind CSS", "CMS"],
+        tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "TypeScript",],
         icon: School,
         color: "text-blue-400",
         bgColor: "bg-blue-400/10",
         borderColor: "border-blue-400/20",
         liveHref: "#",
         githubHref: "#", 
-        image: "/ensa.png",
+        image: "/potfolioimg.jpeg",
     },
-    {
-        id: "real-time-voting-system",
-        title: "Distributed Real-Time Voting System",
-        description: "Engineered a fault-tolerant, distributed backend capable of processing thousands of votes per second using Kafka for real-time data streaming.",
-        status: "Conceptual Project",
-        tags: ["Java", "Kafka", "React", "Docker"],
-        icon: Vote,
-        color: "text-green-400",
-        bgColor: "bg-green-400/10",
-        borderColor: "border-green-400/20",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop&auto=format&q=80",
-    liveHref: "#", // No live demo yet
-    githubHref: "#" // Disabled: concept/no repo
+        {
+        id: "E-commerce-website",
+        title: " E-commerce Website",
+        description:
+            "A modern, responsive website for the E-commerce-website.",
+        status: "Live",
+        tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript",],
+        icon: School,
+        color: "text-blue-400",
+        bgColor: "bg-blue-400/10",
+        borderColor: "border-blue-400/20",
+        liveHref: "#",
+        githubHref: "#", 
+        image: "/ecommerceimg.jpeg",
     },
+
 ];
 
 export function FeaturedProjects() {

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Abdelmajid NIDNASSER — PhD Candidate & Data Engineer',
-  description: 'Portfolio of Abdelmajid NIDNASSER, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+  title: 'Hassan Ftouni — Full Stack Developer & Designer',
+  description: 'Portfolio of Hassan Ftouni, a passionate Computer Science Engineer and PhD Candidate specializing in AI-driven systems, Natural Language Processing, and scalable data solutions. Explore my research, publications, projects, and collaborations.',
   keywords: [
     'AI Architect',
     'Full-Stack Engineer', 
@@ -18,36 +18,36 @@ export const metadata: Metadata = {
     'Portfolio',
     'Web Privacy'
   ],
-  authors: [{ name: 'Abdelmajid NIDNASSER', url: 'https://nidnasser.me' }],
-  creator: 'Abdelmajid NIDNASSER',
-  publisher: 'Abdelmajid NIDNASSER',
-  metadataBase: new URL('https://nidnasser.me'),
+  authors: [{ name: 'Hassan Ftouni', url: 'https://hassanftouni.me' }],
+  creator: 'Haassan Ftouni',
+  publisher: 'Hassan Ftouni',
+  metadataBase: new URL('https://hassanftouni.me'),
   alternates: {
-    canonical: 'https://nidnasser.me',
+    canonical: 'https://hassanftouni.me',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://nidnasser.me',
-    siteName: 'Abdelmajid NIDNASSER Portfolio',
-    title: 'Abdelmajid NIDNASSER — PhD Candidate & Data Engineer',
-    description: 'Portfolio of Abdelmajid NIDNASSER, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+    url: 'https://hassanftouni.me',
+    siteName: 'Hassan Ftouni Portfolio',
+    title: 'Hassan Ftouni — Full Stack Developer & Designer',
+    description: 'Portfolio of Hassan Ftouni, a passionate Computer student and full stack developer specializing in AI-driven systems, Natural Language Processing, and scalable data solutions. Explore my research, publications, projects, and collaborations.',
     images: [
       {
-        url: '/logo.png',
+        url: '/my-avatar.jpg',
         width: 1200,
         height: 630,
-        alt: 'Abdelmajid NIDNASSER - PhD Candidate & Data Engineer',
+        alt: 'Hassan Ftouni — Full Stack Developer & Designer',
         type: 'image/jpeg',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@abdelmajid_nid',
-    creator: '@abdelmajid_nid',
-    title: 'Abdelmajid NIDNASSER — PhD Candidate & Data Engineer',
-    description: 'Portfolio of Abdelmajid NIDNASSER, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.',
+    site: '@hassan_ftouni',
+    creator: '@hassan_ftouni',
+    title: 'Hassan Ftouni — Full Stack Developer & Designer',
+    description: 'Portfolio of Hassan Ftouni, a passionate Computer student and full stack developer specializing in AI-driven systems, Natural Language Processing, and scalable data solutions. Explore my research, publications, projects, and collaborations.',
     images: ['/og-image.jpg'],
   },
   robots: {

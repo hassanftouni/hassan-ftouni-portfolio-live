@@ -28,22 +28,15 @@ const contactMethods = [
   {
     title: 'Email',
     description: 'Best way to reach me',
-    value: 'abdelmajidnidnasser1@gmail.com',
+    value: 'hassan.ftounne@gmail.com',
     icon: Mail,
-    action: 'mailto:abdelmajidnidnasser1@gmail.com',
+    action: 'mailto:hassan.ftounne@gmail.com',
     primary: true,
   },
-  // {
-  //   title: 'Phone',
-  //   description: 'Call for urgent inquiries',
-  //   value: '+212 684233470',
-  //   icon: Phone,
-  //   action: 'tel:+212684233470',
-  //   primary: false,
-  // },
+
   {
     title: 'Location',
-    description: 'Based in Rabat, Morocco',
+    description: 'Based in Beirut, Lebanon',
     value: 'Available for remote work globally',
     icon: MapPin,
     action: null,
@@ -109,7 +102,7 @@ export default function ContactPage() {
             </div>
             <h1 className="text-2xl font-bold mb-4">Message Sent!</h1>
             <p className="text-muted-foreground mb-8">
-              Thank you for reaching out, Abdelmajid. I&apos;ll get back to you within 24 hours.
+              Thank you for reaching out, Hassan Ftouni. I&apos;ll get back to you within 24 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={() => setIsSubmitted(false)}>Send Another Message</Button>
@@ -128,12 +121,12 @@ export default function ContactPage() {
         <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Badge variant="outline" className="mb-4">PhD Candidate & Data Engineer</Badge>
+              <Badge variant="outline" className="mb-4">Full Stack Developer & Designer.</Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                From Academia to Application
+                Intellectuals solve problems;geniuses prevent them.
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Computer Science Engineer and PhD Candidate, specializing in AI, web privacy, and data protection. I am passionate about advancing research in generative AI and privacy-preserving systems, and I am <strong>open for research collaborations</strong> and <strong>freelance projects</strong>.
+                Computer Science Student. I am passionate about advancing research in generative AI and privacy-preserving systems, and I am <strong>open for research collaborations</strong> and <strong>freelance projects</strong>.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge variant="secondary"><Clock className="w-3 h-3 mr-1" /> 24h Response Time</Badge>
@@ -209,16 +202,16 @@ export default function ContactPage() {
                       {/* Freelancer Profile */}
                       <div className="flex items-center gap-4 p-3 rounded-lg border bg-card">
                         <Image
-                          src="https://cdn3.f-cdn.com/ppic/287911125/logo/69037463/URwW7/CROPPED_profile_logo_WXFUH_151cc9cb96b043aab3c775ef1af05f3f.png?image-optimizer=force&format=webply&width=336"
-                          alt="Abdelmajid NIDNASSER"
+                          src="/my-avatar.JPG"
+                          alt="Hassan Ftouni"
                           width={60}
                           height={60}
                           className="rounded-full border-2 border-primary"
                         />
                         <div>
-                          <h4 className="font-bold">ABDELMAJID NIDNASSER</h4>
-                          <p className="text-xs text-muted-foreground">PhD Candidate & Data Engineer</p>
-                          <Link href="https://www.freelancer.com/u/NIDNASSER" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:underline">
+                          <h4 className="font-bold">Hassan Ftouni</h4>
+                          <p className="text-xs text-muted-foreground">Full Stack Developer & Designer</p>
+                          <Link href="https://www.freelancer.com/u/HassanFtouni" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-primary hover:underline">
                             Hire Me on Freelancer.com
                           </Link>
                         </div>
@@ -226,12 +219,12 @@ export default function ContactPage() {
                       {/* Other Links */}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <Button variant="outline" className="w-full justify-start" asChild>
-                          <Link href="https://linkedin.com/in/abdelmajid-nidnasser" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://www.linkedin.com/in/hassan-ftouni-2a9716269" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="w-4 h-4 mr-2" /> LinkedIn
                           </Link>
                         </Button>
                         <Button variant="outline" className="w-full justify-start" asChild>
-                          <Link href="https://github.com/NIDNASSER-Abdelmajid" target="_blank" rel="noopener noreferrer">
+                          <Link href="https://github.com/HassanFtouni" target="_blank" rel="noopener noreferrer">
                             <Github className="w-4 h-4 mr-2" /> GitHub
                           </Link>
                         </Button>
@@ -295,7 +288,7 @@ export default function ContactPage() {
                         </div>
                         <div className="flex items-center justify-between">
                           <span>Time Zone</span>
-                          <span className="text-muted-foreground">GMT+1 (Morocco)</span>
+                          <span className="text-muted-foreground">GMT+2 (EET/Beirut)</span>
                         </div>
                       </div>
                     </CardContent>
@@ -320,7 +313,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold mb-2">Do you only work through Freelancer.com?</h3>
                   <p className="text-sm text-muted-foreground">
-                    While I have a strong 5-star reputation on Freelancer.com, I am open to direct collaborations and long-term contracts outside the platform.
+                    While I have a strong reputation, I am open to direct collaborations and long-term contracts outside the platform.
                   </p>
                 </div>
                 <div>
@@ -330,7 +323,7 @@ export default function ContactPage() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">What kind of research do you focus on as a PhD candidate?</h3>
+                  <h3 className="font-semibold mb-2">What kind of research do you focus on as a Full Stack Developer?</h3>
                   <p className="text-sm text-muted-foreground">
                     I focus on AI, generative models, and web privacy, exploring how advanced machine learning techniques can be applied to protect sensitive data, improve user transparency, and develop ethical, privacy-preserving digital systems. My work combines practical experimentation with theoretical insights to create scalable and responsible AI solutions.
                   </p>

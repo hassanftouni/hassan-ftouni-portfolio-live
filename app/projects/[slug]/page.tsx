@@ -240,7 +240,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   }
 
   return {
-    title: `${project.title} | Abdelmajid NIDNASSER - PhD Candidate & Data Engineer`,
+    title: `${project.title} | Hassan Ftouni full-stack developer portfolio`,
     description: project.description,
   }
 }

@@ -7,12 +7,13 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Image from "next/image";
+// We import Image from next/image but will use standard img tags for the logo to prevent hydration errors
+import Image from "next/image"; 
 
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/gallery", label: "Gallery" },
+  //{ href: "/gallary", label: "Gallery" },
   { href: "/about", label: "About" },
   { href: "/experience", label: "Experience" },
   { href: "/contact", label: "Contact" },
@@ -66,21 +67,23 @@ export function Header() {
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative">
                 <div className="relative h-9 w-9 rounded-xl overflow-hidden shadow-lg transition-all duration-300 group-hover:shadow-cyan-400/25 group-hover:shadow-xl">
-                  <Image
-                    src="/Abdelmajid.png"
+                  {/* Standard IMG tag used here to avoid hydration conflicts */}
+                  <img
+                    src="/my-avatar.JPG"
                     alt="Abdelmajid NIDNASSER"
-                    fill
-                    className="object-cover"
+                    width={36} 
+                    height={36}
+                    className="object-cover w-full h-full" 
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-blue-500/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <div className="hidden sm:block">
                 <span className="font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
-                  Abdelmajid NIDNASSER
+                  Hassan Ftouni
                 </span>
                 <div className="text-xs text-gray-400 font-mono">
-                  PhD Candidate & Data Engineer
+                  Full Stack Developer & Designer
                 </div>
               </div>
             </Link>
@@ -152,21 +155,24 @@ export function Header() {
             >
               <div className="flex flex-col h-full">
                 {/* Mobile Header */}
-                                {/* Mobile Header */}
                 <div className="p-6 border-b border-white/10">
                   <Link 
                     href="/" 
                     className="flex items-center gap-3"
                     onClick={() => setIsOpen(false)}
                   >
+                    {/* The avatar container */}
                     <div className="relative h-10 w-10 rounded-xl overflow-hidden">
-                      <Image
-                        src="/Abdelmajid.jpeg"
+                      {/* Standard IMG tag used here to avoid hydration conflicts */}
+                      <img
+                        src="/my-avatar.JPG"
                         alt="Abdelmajid NIDNASSER"
-                        fill
-                        className="object-cover"
+                        width={40}  
+                        height={40}
+                        className="object-cover w-full h-full" 
                       />
                     </div>
+                    {/* Your Name and Title */}
                     <div>
                       <div className="font-semibold text-white">Abdelmajid NIDNASSER</div>
                       <div className="text-xs text-gray-400 font-mono">PhD Candidate & Data Engineer</div>
@@ -200,50 +206,10 @@ export function Header() {
                   >
                     <Link href="/resume">
                       View Resume
-                      <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
                 </div>
 
-                {/* Mobile Navigation */}
-                <nav className="flex-1 p-6 space-y-3">
-                  {navItems.map((item, index) => (
-                    <motion.div
-                      key={item.href}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.3, delay: index * 0.1 }}
-                    >
-                      <Link
-                        href={item.href}
-                        onClick={() => setIsOpen(false)}
-                        className={`flex items-center p-4 rounded-xl font-medium transition-all duration-500 group relative overflow-hidden ${
-                          isActive(item.href)
-                            ? "bg-gradient-to-r from-cyan-400/15 to-blue-500/10 text-cyan-300 border border-cyan-400/30 shadow-lg shadow-cyan-400/10"
-                            : "text-gray-300 hover:text-white hover:bg-gradient-to-r hover:from-white/10 hover:to-white/5 border border-transparent hover:border-white/20"
-                        }`}
-                      >
-                        {/* Shimmer effect */}
-                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
-                        
-                        <span className="relative z-10">{item.label}</span>
-                      </Link>
-                    </motion.div>
-                  ))}
-                </nav>
-
-                {/* Mobile Footer */}
-                <div className="p-6 border-t border-white/10">
-                  <Button 
-                    className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-white border-0"
-                    asChild
-                  >
-                    <Link href="/resume">
-                      View Resume
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                </div>
               </div>
             </SheetContent>
           </Sheet>

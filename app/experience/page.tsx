@@ -19,130 +19,97 @@ import {
 // import { Description } from '@radix-ui/react-dialog'
 
 export const metadata: Metadata = {
-  title: 'Experience | Abdelmajid NIDNASSER - PhD Candidate & Data Engineer',
+  title: 'Experience | Hassan Ftouni full-stack developer ',
   description: 'Explore my professional experience, education, and achievements in AI architecture and full-stack development.',
 }
 
 const workExperience = [
   {
-    title: 'Gen AI Engineer',
-    company: 'Freelancer.com',
-    location: 'Remote',
-    period: 'Nov 2022 - Present',
-    type: 'Freelance',
-    description: "Delivering high-quality AI-powered applications and privacy-focused solutions for diverse clients, consistently achieving top ratings and 100% on-time, on-budget project completion.",
+    title: 'Head Waiter',
+    company: 'Al Jawad Dining.',
+    location: 'Beirut, Lebanon Airport Road',
+    period: 'June 2023 - Present',
+    type: 'Full-time',
+    description: ' Led a team of 11 Captain Waiters and 18 Waiters, scheduling shifts, assigning tasks, and fostering a cohesive and efficient work environment.',
     achievements: [
-      "Delivered 45+ client projects leveraging Generative AI and data-driven solutions, consistently aligning with client goals and business needs",
-      "Developed AI-powered applications and privacy-focused systems that enhanced user experience while safeguarding sensitive data",
-      "Earned a perfect 5.0-star rating across 48 client reviews by combining technical excellence with clear, reliable communication",
-      "Achieved 100% on-time delivery and 100% on-budget project completion, ensuring strong client trust and repeat collaborations"
+      'Trained waitstaff on upselling techniques and showcasing signature dishes, leading to a 45% increase in average check size from $100 to $145 per guest.',
+      ' Provided comprehensive training to staff on sequence of service, restaurant hygiene, uniform presentation, and food safety regulations, achieving a 100% hygiene score and compliance .',
+      'Implemented CI/CD pipelines to streamline deployment processes, reducing release times by 40%.',
     ],
-    technologies: ['Python', 'PyTorch', 'TensorFlow', 'Hugging Face Transformers', 'LangChain', 'OpenAI GPT APIs', 'Stable Diffusion', 'FastAPI', 'Docker', 'Git']
-  },
-  {
-    title: 'Research Engineer',
-    company: 'College of Computing - Mohammed VI Polytechnic University',
-    location: 'Rabat, Morocco',
-    period: 'Jan 2025 - Sept 2025',
-    type: 'Internship',
-    description: "Designing and implementing scalable data pipelines and privacy-focused systems for ad detection across 100K+ websites, integrating ML workflows, OCR, and real-time analysis to enhance user transparency and block targeted ads.",
-    achievements: [
-      "Designed and built a scalable data pipeline to support ad detection and privacy-focused analysis from 100K+ websites scraped via a custom crawler based on Tranco lists",
-      "Engineered robust ETL processes to ingest, clean, and enrich web data using automated classification across 12 categories and 35 subcategories",
-      "Collected and structured network-level and DOM-based signals to identify ad-related elements using community filter lists and advanced scraping methods",
-      "Extracted and stored 'Why This Ad' metadata at scale to analyze targeting strategies, contributing to user transparency on ad personalization",
-      "Built a semi-automated data cleaning framework to handle inconsistencies and noise, improving data quality for downstream processing and modeling",
-      "Integrated OCR capabilities for extracting text from ad images, enriching feature sets for analysis",
-      "Developed batch and real-time processing workflows to support machine learning pipelines for ad classification and detection",
-      "Contributed to the creation of a Chrome extension prototype backed by engineered data flows and inference pipelines, enabling real-time blocking of targeted ads"
-    ],
-    technologies: ['Python', 'Apache Spark', 'ETL', 'Machine Learning', 'OCR', 'Web Scraping', 'Custom Crawlers', 'Data Cleaning', 'Chrome Extensions', 'Real-time Processing']
-  },
+    technologies: [ 'POS', 'Omega System', 'Customer Service'],
+  }
+
 ]
 
 const education = [
   {
-    degree: 'Engineering Degree in Innovation & AMOA',
-    school: 'National Institute of Posts and Telecommunications (INPT)',
-    location: 'Rabat, Morocco',
-    period: '2022 - 2025',
-    status: 'Completed',
-    description: 'Specializing in Data and Machine Learning with focus on Business Applications, AI applications, and Information Systems.',
+    degree: 'Bachelor of Science in Computer Science',
+    school: 'Arab Open University (AOU)',
+    location: 'Beirut, Lebanon',
+    period: '2023 - 2026 (Final Year)',
+    status: 'Final Year',
+    description: 'A highly motivated Computer Science graduate with a strong foundation in programming, data structures, and algorithms. Proven ability to develop innovative solutions to complex problems, demonstrated through personal and academic projects. Proficient in Python, Java, and SQL, and eager to contribute technical expertise to a dynamic development team.',
     achievements: [
-      'General Affairs Leader of Student Council (2024)',
-      'Member of CIT INPT - Computer & Information Technology Club',
+      'Contributing to open-source libraries through testing and code coverage.',
+      'Leading a team on projects such as e-commerce prototypes .',
     ],
-    coursework: ['Data Engineering', 'Software Engineering', 'Data Structures', 'Algorithms', 'Database Systems', 'AI & Machine Learning', 'Information Systems', 'Project Management'],
+    coursework: [ 'Software Engineering', 'Data Structures', 'Algorithms', 'Database Systems', 'AI & Machine Learning', 'Information Systems', 'Project Management'],
   },
+
   {
-    degree: 'Preparatory Classes for Engineering Studies',
-    school: 'Lycée Reda Slaoui',
-    location: 'Agadir, Morocco',
-    period: '2020 - 2022',
+    degree: 'Full Stack Web Development Certification',
+    school: 'Youbee.ai',
+    location: 'Beirut, Lebanon',
+    period: '2025-2026',
     status: 'Completed',
-    description: "Completed intensive preparatory classes focused on Mathematics, Physics, and Computer Science, building a strong foundation in analytical thinking, problem-solving, and core engineering principles to prepare for advanced studies in engineering and computer science.",
+    description: "Full-stack developer dedicated to building elegant, functional, and efficient web applications. Combines front-end expertise with strong back-end logic to deliver end-to-end solutions that meet user needs. Skilled in modern web technologies and frameworks, with a passion for continuous learning and improvement.",
     achievements: [
-      "Successfully completed rigorous coursework in Mathematics, Physics, and Computer Science",
-      "Developed strong problem-solving and analytical thinking skills",
-      "Prepared for competitive engineering studies with top performance in foundational subjects",
-      "Built a solid foundation for specialization in Innovation, Data, and AI at INPT"
+      "Developed a robust Single Page Application (SPA) using Angular for dynamic front-end user interfaces and Laravel to power secure, RESTful APIs and database management (MySQL).",
+      "Developed end-to-end full-stack web applications from conceptualization to deployment, architecting robust back-end systems (Node.js/Django), designing intuitive front-ends (React/Next.js), and managing scalable database solutions (Django rest framework).",
+     
     ],
-    coursework: ['Advanced Mathematics', 'Physics', 'Computer Science Fundamentals', 'Programming Basics', 'Business Fundamentals', 'Project Management'],
+    coursework: ['Advanced Laravel', 'Livewire', 'Computer Science Fundamentals', 'Programming Basics', 'Project Management'],
   },
 ]
 
 const certifications = [
+  
   {
-    title: 'HCIA-AI V3.5 Certificate',
-    issuer: 'Huawei',
-    date: '2025',
+    title: 'Full stack web development Certificate',
+    issuer: 'Youbee.ai',
+    date: 'January 2025',
+    description: 'Comprehensive training in full-stack web development, covering both front-end and back-end technologies.',
     credentialId: '#',
-    description: 'Comprehensive course on machine learning fundamentals and supervised learning techniques.'
+
   },
-  {
-    title: 'Oracle Cloud Infrastructure 2024 Generative AI Certified',
-    issuer: 'Oracle',
-    date: '2024',
+   
+   {
+    title: 'Gemini Certified Educator',
+    issuer: 'Google for Education',
+    date: 'October 2025 - October 2028',
+    description: 'Certified proficiency in utilizing Google AI tools (Gemini) for educational and professional applications.',
     credentialId: '#',
-    description: 'Focused on deploying and managing generative AI solutions on Oracle Cloud Infrastructure.'
   },
-  {
-    title: 'McKinsey Forward Program',
-    issuer: 'McKinsey & Company',
-    date: '2023',
-    credentialId: '#',
-    description: 'Intensive program covering business problem solving, strategic thinking, and analytical skills.'
-  },
-  {
-    title: 'Foundation of Project Management',
-    issuer: 'Google',
-    date: '2023',
-    credentialId: '#',
-    description: 'Training in project management fundamentals, methodologies, and best practices.'
-  },
-  {
-    title: 'English Proficiency (C2)',
-    issuer: 'EF SET',
-    date: '2022',
-    credentialId: '#',
-    description: 'Demonstrated mastery of English at a C2 proficiency level.'
-  }
+ 
 ];
 
 
 const skills = {
   technical: [
-    { name: 'Python', level: 95 },
-    { name: 'JavaScript', level: 90 },
+
+    { name: 'HTML5', level: 95 },
+    { name: 'CSS3/Tailwind CSS', level: 95 },
+    { name: 'JavaScript/TypeScript', level: 90 },
+    { name: 'Angular', level: 85 },
+    { name: 'Laravel (PHP)', level: 85 },
+    { name: 'Django (Python)', level: 85 },
+    { name: 'Next.js', level: 90 },
     { name: 'SQL', level: 90 },
-    { name: 'Machine Learning', level: 90 },
-    { name: 'Apache Spark / PySpark', level: 85 },
-    { name: 'ETL Processes', level: 85 },
-    { name: 'Data Visualization', level: 85 },
-    { name: 'Web Scraping', level: 85 },
-    { name: 'Agile/Scrum Methodologies', level: 85 },
-    { name: 'Cloud & Deployment', level: 80 }
-  ],
+    { name: 'Python', level: 95 },
+    { name: 'Machine Learning', level: 50},
+    { name: 'Cloud & Deployment', level: 20 }
+    ],
+
   soft: [
     { name: 'Problem Solving', level: 95 },
     { name: 'Communication', level: 90 },
@@ -170,10 +137,10 @@ export default function ExperiencePage() {
                 Professional Experience
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              A comprehensive overview of my journey in AI, software engineering, and continuous learning. 
-              From academic excellence to real-world impact, each experience has shaped my expertise.
+              Explore my journey as a full-stack developert, showcasing my work experience, education, certifications, and skills.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
               <Button asChild size="lg">
                 <Link href="/resume">
                   <Download className="w-4 h-4 mr-2" />
@@ -311,7 +278,7 @@ export default function ExperiencePage() {
                         </div>
                         
                         <div>
-                          <h4 className="font-semibold mb-3">Relevant Coursework</h4>
+                          <h4 className="font-semibold mb-3">STUDY AREAS</h4>
                           <div className="flex flex-wrap gap-2">
                             {edu.coursework.map((course) => (
                               <Badge key={course} variant="outline" className="text-xs">
@@ -425,7 +392,7 @@ export default function ExperiencePage() {
                     <h3 className="text-xl font-semibold mb-4">Additional Competencies</h3>
                     <div className="flex flex-wrap justify-center gap-2">
                       {[
-                        'Agile/Scrum', 'Technical Writing', 'Code Review', 'Mentoring',
+                        'Agile', 'Technical Writing', 'Code Review', 'Mentoring',
                         'Public Speaking', 'Research', 'System Architecture', 'API Design',
                         'Database Design', 'Security Best Practices', 'Performance Optimization',
                         'Cross-functional Collaboration'

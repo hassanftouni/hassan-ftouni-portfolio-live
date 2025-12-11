@@ -38,7 +38,7 @@ export function HeroSection() {
             >
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-                <span>Open to collaborative research and development</span>
+                <span>Available for consultation and project partnerships</span>
               </div>
             </Badge>
 
@@ -50,10 +50,10 @@ export function HeroSection() {
                 transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
               >
                 <span className="block">
-                  Hi, I&apos;m Abdelmajid NIDNASSER.
+                  Hi, I&apos;m Hassan Ftouni.
                 </span>
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 animate-gradient">
-                  Researching in Web Privacy & Data Protection
+                  Full Stack Developer & Designer.
                 </span>
               </motion.h1>
               <motion.p
@@ -62,8 +62,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
               >
-                A computer science engineer and PhD candidate, I specialize in
-                conducting research in web privacy and data protection.{" "}
+                Intellectuals solve problems;geniuses prevent them.
               </motion.p>
             </div>
 
@@ -116,7 +115,7 @@ export function HeroSection() {
             {/* Tech Stack */}
             <div>
               <h3 className="text-center text-sm font-semibold text-muted-foreground mb-4">
-                CORE TECHNOLOGIES
+               PROFICIENCY IN
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
                 {techStack.map((tech) => (

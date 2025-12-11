@@ -36,10 +36,10 @@ export default function GlobalError({
                 <p className="text-sm text-muted-foreground">
                   If the problem persists, please contact{' '}
                   <a 
-                    href="mailto:abdelmajidnidnasser1@gmail.com" 
+                    href="mailto:hassan.ftounne@gmail.com" 
                     className="text-accent hover:underline"
                   >
-                    abdelmajidnidnasser1@gmail.com
+                    hassan.ftounne@gmail.com
                   </a>
                 </p>
               </div>

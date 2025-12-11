@@ -134,11 +134,11 @@ export function CTABand() {
           >
             <p className="text-sm text-muted-foreground">
               Have a quick question?{" "}
-              <Link href="mailto:abdelmajidnidnasser1@gmail.com" className="text-primary underline hover:text-accent transition-colors">
+              <Link href="mailto:hassan.ftounne@gmail.com" className="text-primary underline hover:text-accent transition-colors">
                 Email me directly
               </Link>{" "}
               or connect on{" "}
-              <Link href="https://linkedin.com/in/abdelmajid-nidnasser" className="text-primary underline hover:text-accent transition-colors">
+              <Link href="https://linkedin.com/in/hassan-ftouni-2a9716269" className="text-primary underline hover:text-accent transition-colors">
                 LinkedIn
               </Link>.
             </p>

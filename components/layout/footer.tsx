@@ -28,12 +28,12 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent text-accent-foreground font-mono font-bold text-lg">
-                AN
+                HF
               </div>
-              <span className="font-semibold text-foreground">Abdelmajid NIDNASSER</span>
+              <span className="font-semibold text-foreground">Hassan Ftouni</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">
-              PhD Candidate & Data Engineer building reliable, AI‑powered products for startups and teams worldwide.
+              Full Stack Developer & Designer passionate about crafting elegant and efficient web solutions.
             </p>
           </div>
 
@@ -61,19 +61,19 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-foreground">Connect</h3>
             <div className="flex space-x-2">
               <Button variant="outline" size="icon" asChild>
-                <Link href="https://github.com/NIDNASSER-Abdelmajid" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/HassanFtouni" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                   <span className="sr-only">GitHub</span>
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="https://linkedin.com/in/abdelmajid-nidnasser" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/hassan-ftouni-2a9716269" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="https://x.com/Abdelmajid_nid" target="_blank" rel="noopener noreferrer">
+                <Link href="https://x.com/FtounneHassan" target="_blank" rel="noopener noreferrer">
                   <XLogo className="h-4 w-4" />
                   <span className="sr-only">X</span>
                 </Link>
@@ -86,7 +86,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Abdelmajid NIDNASSER. All rights reserved.
+            © {currentYear} Hassan Ftouni. All rights reserved.
           </p>
         </div>
       </div>

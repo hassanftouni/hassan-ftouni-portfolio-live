@@ -11,41 +11,42 @@ import { useEffect, useRef } from "react";
 const testimonials = [
     {
         id: 1,
-        name: "Dillon M.",
-        role: "@kowabungaStudios",
-        country: "🇺🇸 Twain Harte, United States",
-        avatar: "https://www.freelancer.com/ppic/280140625/logo/85188908/profile_logo_85188908.jpg",
+        name: "hadi soufan",
+        role: "@hadisofan",
+        country: "Beirut, Lebanon 🇱🇧",
+        avatar: "/hadisoufanimg.jpeg",
         rating: 5,
         quote: "This is exactly what I was looking for and delivered on time and on budget.",
-        project: "Firebase & Vercel Dashboard",
+        project: "javascript study website",
         highlight: "$1,019 USD Project",
         color: "text-purple-400",
         bgColor: "bg-purple-400/10",
         borderColor: "border-purple-400/20",
     },
+    
     {
         id: 2,
-        name: "Mathew C.",
-        role: "@matc3",
-        country: "🇦🇺 Hobart, Australia",
-        avatar: "https://www.freelancer.com/ppic/282102183/logo/86355480/profile_logo_86355480.jpg",
+        name: "Ibrahim Dabees",
+        role: "@Ibrahim Dabees",
+        country: "Beirut, Lebanon 🇱🇧",
+        avatar: "/ibrahimdabeesimg.jpeg", // Using a placeholder as avatar isn't in the HTML, add a real one if you have it.
         rating: 5,
-        quote: "NIDNASSER is very talented and a great communicator. I would recommend him to anyone who wants to get the job done!",
-        project: "Firebase User Data Form",
-        highlight: "Managing Director - K2 Projects",
-        color: "text-blue-400",
-        bgColor: "bg-blue-400/10",
-        borderColor: "border-blue-400/20",
-    },
-    {
-        id: 3,
-        name: "Louie B.",
-        role: "@Louieabull",
-        country: "🇬🇧 South Benfleet, United Kingdom",
-        avatar: "/avatars/louie.png", // Using a placeholder as avatar isn't in the HTML, add a real one if you have it.
-        rating: 5,
-        quote: "Unbelievable knowledge and work rate. NIDNASSER has excelled in everything I have asked him to do!",
+        quote: "Unbelievable knowledge and work rate. Hassan Ftouni has excelled in everything I have asked him to do!",
         project: "PDF Data Extraction & Integrations",
+        highlight: "Repeat Client",
+        color: "text-green-400",
+        bgColor: "bg-green-400/10",
+        borderColor: "border-green-400/20",
+    },
+      {
+        id: 3,
+        name: "Moussa Jafaar",
+        role: "@Moussa Jafaar",
+        country: "Beirut, Lebanon 🇱🇧",
+        avatar: "/moussajafaarimg.jpg", // Using a placeholder as avatar isn't in the HTML, add a real one if you have it.
+        rating: 5,
+        quote: "Hassan Ftouni is an exceptional developer who consistently delivers high-quality work on time. His expertise in web scraping and data extraction is unparalleled. I highly recommend him for any project requiring technical proficiency and dedication.",
+        project: "Web Scraping & Data Extraction",
         highlight: "Repeat Client",
         color: "text-green-400",
         bgColor: "bg-green-400/10",
@@ -56,8 +57,8 @@ const testimonials = [
 // Stats updated to reflect accurate numbers from your resume.
 const stats = [
     { icon: Star, value: "5.0", label: "Average Rating" },
-    { icon: Verified, value: "46+", label: "Client Reviews" },
-    { icon: Briefcase, value: "45+", label: "Projects Done" },
+    { icon: Verified, value: "10+", label: "Client Reviews" },
+    { icon: Briefcase, value: "8+", label: "Projects Done" },
     { icon: Clock, value: "100%", label: "On‑Time Delivery" },
 ];
 
@@ -93,7 +94,7 @@ export function Testimonials() {
                             What My Clients <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Say</span>
                         </h2>
                         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                            Real feedback from clients on Freelancer.com who achieved remarkable results.
+                            Real feedback from clients  who achieved remarkable results.
                         </p>
                     </div>
                 </motion.div>

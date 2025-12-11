@@ -65,7 +65,7 @@ export default function Error({
             <p className="text-sm text-muted-foreground">
               If the problem persists, please{' '}
               <a 
-                href="mailto:abdelmajidnidnasser1@gmail.com" 
+                href="mailto:hassan.ftounne@gmail.com" 
                 className="text-accent hover:underline"
               >
                 contact me

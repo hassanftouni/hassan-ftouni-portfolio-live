@@ -6,18 +6,18 @@ import { motion } from "framer-motion";
 // Trust elements updated to reflect your new focus area
 const trustElements = [
     {
-        name: "5-Star Rated Freelancer",
+        name: "5-Star Rated Developer",
         icon: Star,
         description:
-            "Achieved a perfect 5.0-star rating across 46 reviews by delivering high-quality code and clear communication.",
+            "A full-stack developer with a 5-star rating on Freelancer.com.",
         color: "text-yellow-400",
         bgColor: "bg-yellow-400/10",
         borderColor: "border-yellow-400/20",
     },
     {
-        name: "45+ Successful Projects",
+        name: "8+ Successful Projects",
         icon: TrendingUp,
-        description: "Architected and delivered backend systems and REST APIs for over 45 freelance projects for global clients.",
+        description: "Architected and delivered backend systems and REST APIs for over 8  projects.",
         color: "text-purple-400",
         bgColor: "bg-purple-400/10",
         borderColor: "border-purple-400/20",
@@ -31,34 +31,7 @@ const trustElements = [
         bgColor: "bg-cyan-400/10",
         borderColor: "border-cyan-400/20",
     },
-    {
-        // --- THIS SECTION HAS BEEN UPDATED ---
-        name: "LLM & RAG Specialist",
-        icon: BrainCircuit,
-        description:
-            "Developing advanced AI systems using Large Language Models (LLMs), Retrieval-Augmented Generation, and fine-tuning for intelligent, context-aware applications.",
-        color: "text-green-400",
-        bgColor: "bg-green-400/10",
-        borderColor: "border-green-400/20",
-    },
-    {
-        name: "Trusted by Global Clients",
-        icon: Users,
-        description:
-            "Proven track record of collaborating with and delivering solutions for clients from around the world via Freelancer.com.",
-        color: "text-blue-400",
-        bgColor: "bg-blue-400/10",
-        borderColor: "border-blue-400/20",
-    },
-    {
-        name: "INPT Engineering Student",
-        icon: GraduationCap,
-        description:
-            "Final-year student pursuing an Engineering Degree in Data and Software Engineering from the National Institute of Posts and Telecommunications.",
-        color: "text-accent",
-        bgColor: "bg-accent/10",
-        borderColor: "border-accent/20",
-    },
+   
 ];
 
 export function TrustStrip() {
@@ -104,7 +77,8 @@ export function TrustStrip() {
                         >
                             I am committed to delivering not just code, but value. My work is
                             built on a foundation of reliability, quality, and a proven ability
-                            to solve complex problems with data-driven results.
+                            to solve complex problems with data-driven results,
+                            Intellectuals solve problems;geniuses prevent them.
                         </motion.p>
                     </div>
 

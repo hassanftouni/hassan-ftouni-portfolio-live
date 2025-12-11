@@ -42,7 +42,7 @@ const contactMethods = [
   },
   {
     title: 'Location',
-    description: 'Based in Rabat, Morocco',
+    description: 'Based in Beirut, Lebanon',
     value: 'Available for remote work',
     icon: MapPin,
     action: null,

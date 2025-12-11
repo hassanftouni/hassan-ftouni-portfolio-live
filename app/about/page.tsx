@@ -20,17 +20,14 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About | Abdelmajid NIDNASSER - PhD Candidate & Data Engineer',
-  description: 'Learn about my journey as a PhD Candidate and Data Engineer, my passion for innovation, and the values that drive my work.',
+  title: 'About | Hassan Ftouni - Full Stack Developer & Designer',
+  description: 'Intellectuals solve problems;geniuses prevent them.',
 }
 
 const skills = [
-  { category: 'Programming Languages', items: ['Python', 'JavaScript', 'SQL'] },
-  { category: 'Databases', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite'] },
-  { category: 'Data & Machine Learning', items: ["Apache Spark", "PySpark", "Pandas", "Scikit-learn", "XGBoost", "LightGBM", "ETL Processes"] },
-  { category: 'Data Visualization & BI', items: [ "Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI", "Looker", "Creating Intuitive Dashboards" ] },
-  { category: 'Web Scraping & Data Extraction', items: [ "Scrapy", "BeautifulSoup", "Selenium", "Custom Crawlers", "Network-level Analysis", "DOM-based Analysis" ] },
-  { category: 'Project Management & Collaboration', items: [ "Agile/Scrum Methodologies", "Cross-functional Team Communication", "Business Requirements Gathering", "Documentation" ] },
+  { category: 'Programming Languages', items: ['Python', 'JavaScript','Laravel','Angular','Html','CSS', 'SQL'] },
+  { category: 'Databases', items: [ 'MySQL', 'Django restframwork', ] },
+  { category: 'Data & Machine Learning', items: ["Apache Spark", "PySpark", "Pandas", ] },
 ]
 
 const achievements = [
@@ -41,23 +38,18 @@ const achievements = [
   //   year: '2024',
   // },
   {
-    title: 'Organizational Leadership',
-    description: 'General Affairs of Student Council of INPT',
+    title: 'Youobee.ai',
+    description: 'Full Stack Developer ',
     icon: Users,
-    year: '2024',
+    year: '2025',
   },
   {
     title: 'Technical Excellence',
-    description: '45+ backend projects with Python',
+    description: '5+ backend projects with Laravel & Django',
     icon: Code,
-    year: '2023',
+    year: '2025',
   },
-  {
-    title: 'Data Science Impact',
-    description: '98% accuracy in automated data extraction using CNN',
-    icon: Brain,
-    year: '2023',
-  },
+ 
 ]
 
 const values = [
@@ -108,7 +100,7 @@ export default function AboutPage() {
                   </Badge>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <MapPin className="w-4 h-4 mr-1" />
-                    Rabat, Morocco
+                    Beirut, Lebanon
                   </div>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
@@ -116,7 +108,7 @@ export default function AboutPage() {
                   AI & Code
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  I&apos;m a Computer Science Engineer and PhD candidate driven by a passion to create a safe digital world. 
+                  I&apos;m a Computer Science student and Full Stack Developer driven by a passion to create a safe digital world. 
                   My research focuses on building innovative solutions that bridge the gap between cutting-edge AI and 
                   real-world applications in web privacy and data protection.
                 </p>
@@ -137,8 +129,8 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 p-8">
                   <Image
-                    src="/Abdelmajid2.png"
-                    alt="Abdelmajid NIDNASSER"
+                    src="/my-avatar2.JPEG"
+                    alt="Hassan Ftouni"
                     width={400}
                     height={500}
                     className="w-full h-auto rounded-lg shadow-2xl"
@@ -149,7 +141,7 @@ export default function AboutPage() {
                   <div className="flex items-center">
                     <Code className="w-8 h-8 text-primary mr-3" />
                     <div>
-                      <p className="text-2xl font-bold">15+</p>
+                      <p className="text-2xl font-bold">8+</p>
                       <p className="text-sm text-muted-foreground">Projects</p>
                     </div>
                   </div>
@@ -158,7 +150,7 @@ export default function AboutPage() {
                   <div className="flex items-center">
                     <Calendar className="w-8 h-8 text-primary mr-3" />
                     <div>
-                      <p className="text-2xl font-bold">3+</p>
+                      <p className="text-2xl font-bold">+</p>
                       <p className="text-sm text-muted-foreground">Years Exp</p>
                     </div>
                   </div>
@@ -179,7 +171,7 @@ export default function AboutPage() {
                 My journey into computer science began with an insatiable curiosity, a drive to understand technology from the ground up. This passion led me to master the fundamentals of Python and dive into the complex worlds of cybersecurity and networking. Those early years of exploration and trial-and-error laid the foundation for my entire career, sparking a lifelong dedication to solving complex technical problems.
               </p>
               <p className="text-lg leading-relaxed mb-6" style={{ textAlign: 'justify' }}>
-                As I progressed through my studies at INPT and began my PhD, my focus sharpened on the incredible potential of combining my engineering skills with cutting-edge AI and machine learning. My work evolved from simple scripts to sophisticated, intelligent systems, each project a new challenge to be solved with purpose and precision. This led me to my current research in web privacy and data protection, a field where I can apply my skills to create a safer digital world.
+                As I progressed through my studies at INPT , my focus sharpened on the incredible potential of combining my engineering skills with cutting-edge AI and machine learning. My work evolved from simple scripts to sophisticated, intelligent systems, each project a new challenge to be solved with purpose and precision. This led me to my current research in web privacy and data protection, a field where I can apply my skills to create a safer digital world.
               </p>
               <p className="text-lg leading-relaxed mb-6" style={{ textAlign: 'justify' }}>
                 Throughout my academic and professional journey, I&apos;ve had the privilege of architecting and implementing solutions that make a meaningful impact. From building scalable data pipelines to developing real-time ad detection systems, each experience has deepened my understanding of how to build robust, intelligent applications.
@@ -295,6 +287,7 @@ export default function AboutPage() {
       </section>
 
       {/* Personal Touch */}
+      {/* Personal Touch */}
       <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -303,7 +296,7 @@ export default function AboutPage() {
             </div>
             <h2 className="text-3xl font-bold mb-6">Beyond the Code</h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              When I&apos;m not immersed in algorithms and architectures, I enjoy exploring Morocco&apos;s rich culture, 
+              When I&apos;m not immersed in algorithms and architectures, I enjoy exploring Lebanon&apos;s rich culture, 
               contributing to open-source projects, and sharing knowledge through technical writing and mentoring. 
               I believe the best innovations come from diverse perspectives and continuous learning.
             </p>

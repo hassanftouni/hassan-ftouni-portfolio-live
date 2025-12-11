@@ -23,16 +23,16 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Abdelmajid NIDNASSER",
+            "name": "Hassan Ftouni",
             "jobTitle": "PhD Candidate & Data Engineer",
-            "url": "https://nidnasser.me",
-            "logo": "https://nidnasser.me/logo.png",
-            "image": "https://nidnasser.me/og-image.jpg",
-            "description": "Portfolio of Abdelmajid NIDNASSER, Computer Science Engineer & PhD Candidate and freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.",
-            "email": "mailto:abdelmajid.nidnasser@gmail.com",
+            "url": "https://hassanftouni.me",
+            "logo": "https://hassanftouni.me/logo.png",
+            "image": "https://hassanftouni.me/og-image.jpg",
+            "description": "Portfolio of Hassan Ftouni, Computer Science student & full stack developerand freelance AI & full‑stack engineer specializing in Python. Explore case studies, experience, and get in touch.",
+            "email": "mailto:hassan.ftounne@gmail.com",
             "sameAs": [
-              "https://www.linkedin.com/in/abdelmajid-nidnasser",
-              "https://github.com/NIDNASSER-Abdelmajid"
+              "https://www.linkedin.com/in/hassan-ftouni-2a9716269",
+              "https://github.com/HassanFtouni"
             ],
             "knowsAbout": [
               "Software Engineering",
@@ -48,8 +48,8 @@ export default function HomePage() {
             ],
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Rabat",
-              "addressCountry": "Morocco"
+              "addressLocality": "Beirut",
+              "addressCountry": "Lebanon"
             }
           })
         }}

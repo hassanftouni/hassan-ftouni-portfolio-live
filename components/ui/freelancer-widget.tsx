@@ -45,7 +45,7 @@ export function FreelancerWidget() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-3 h-3 text-primary" />
-              <span>abdelmajidnidnasser1@gmail.com</span>
+              <span>hassan.ftounne@gmail.com</span>
             </div>
             <div className="flex items-start gap-2">
               <MapPin className="w-3 h-3 text-primary mt-0.5 flex-shrink-0" />

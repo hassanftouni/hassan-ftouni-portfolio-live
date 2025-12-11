@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const services = [
     {
         icon: BrainCircuit,
-        title: "AI & Generative Models",
+        title: "AI Research & Development",
         description:
             "Conducting advanced research on Large Language Models (LLMs), privacy-preserving AI, and generative systems. I focus on developing context-aware, ethical, and high-performing AI solutions.",
         features: [
@@ -38,7 +38,7 @@ const services = [
     },
     {
         icon: Cloud,
-        title: "Data Engineering & Research Infrastructure",
+        title: "full-Stack Data Systems",
         description:
             "Building scalable data pipelines and processing workflows to support advanced AI research and analytics. I integrate batch and real-time data systems to enable reproducible and efficient experiments.",
         features: [
@@ -83,7 +83,7 @@ export function WhatIDo() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         viewport={{ once: true }}
                     >
-                        I conduct advanced AI and data-driven research, focusing on privacy, ethical AI, and generative models, delivering reproducible results and cutting-edge solutions.
+                        Bridging the gap between cutting-edge AI research and practical, privacy-conscious applications.
                     </motion.p>
                 </motion.div>
 

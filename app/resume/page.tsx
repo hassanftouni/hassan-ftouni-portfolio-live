@@ -22,134 +22,85 @@ import {
 } from 'lucide-react'
 
 const personalInfo = {
-  name: 'Abdelmajid NIDNASSER',
-  title: 'PhD Candidate & Data Engineer',
-  email: 'abdelmajidnidnasser1@gmail.com',
-  location: 'Rabat, Morocco',
-  website: 'https://nidnasser.me',
-  freelancer: 'https://www.freelancer.com/u/NIDNASSER',
-  portfolioAlt: 'http://nidnasser.me/',
-  linkedin: 'linkedin.com/in/abdelmajid-nidnasser',
-  github: 'github.com/NIDNASSER-Abdelmajid',
+  name: 'Hassan Ftouni',
+  title: 'Full Stack Developer & Designer',
+  email: 'hassan.ftounne@gmail.com',
+  location: 'Beirut, Lebanon 🇱🇧',
+  website: 'https://hassanftouni.me',
+  freelancer: 'https://www.freelancer.com/Hassanftouni',
+  portfolioAlt: 'http://hassanftouni.me/',
+  linkedin: 'linkedin.com/in/hassan-ftouni-2a9716269',
+  github: 'github.com/HassanFtouni',
 }
 
-const professionalSummary = `PhD Candidate and Computer Science Engineer specializing in Web Privacy and Data Protection. My research explores innovative approaches to safeguarding user data and enhancing online privacy while bridging cutting-edge research with practical applications. In parallel, I work as a Generative AI freelancer, delivering impactful AI-driven solutions tailored to diverse client needs, consistently ensuring high-quality outcomes and strong collaboration.`
+const professionalSummary = `Full Stack Developer & Designer with a passion for creating efficient, scalable, and user-friendly web applications. Skilled in both frontend and backend technologies, with a strong focus on delivering high-quality solutions that meet client needs and exceed expectations.`
 
 const experience = [
   {
-    title: 'Gen AI Engineer',
-    company: 'Freelancer.com',
+    title: 'Full Stack Developer & Designer',
+    company: 'Freelance',
     location: 'Remote',
-    period: 'Nov 2022 - Present',
+    period: 'Nov 2024 - Present',
     achievements: [
-      "Delivered 45+ client projects leveraging Generative AI and data-driven solutions, consistently aligning with client goals and business needs",
       "Developed AI-powered applications and privacy-focused systems that enhanced user experience while safeguarding sensitive data",
       "Earned a perfect 5.0-star rating across 48 client reviews by combining technical excellence with clear, reliable communication",
       "Achieved 100% on-time delivery and 100% on-budget project completion, ensuring strong client trust and repeat collaborations"
     ],
   },
-  {
-    title: 'Research Engineer',
-    company: 'College of Computing - Mohammed VI Polytechnic University',
-    location: 'Rabat, Morocco',
-    period: 'Jan 2025 - Sept 2025',
-    achievements: [
-    "Designed and built a scalable data pipeline to support ad detection and privacy-focused analysis from 100K+ websites scraped via a custom crawler based on Tranco lists",
-    "Engineered robust ETL processes to ingest, clean, and enrich web data using automated classification across 12 categories and 35 subcategories",
-    "Collected and structured network-level and DOM-based signals to identify ad-related elements using community filter lists and advanced scraping methods",
-    "Extracted and stored 'Why This Ad' metadata at scale to analyze targeting strategies, contributing to user transparency on ad personalization",
-    "Built a semi-automated data cleaning framework to handle inconsistencies and noise, improving data quality for downstream processing and modeling",
-    "Integrated OCR capabilities for extracting text from ad images, enriching feature sets for analysis",
-    "Developed batch and real-time processing workflows to support machine learning pipelines for ad classification and detection",
-    "Contributed to the creation of a Chrome extension prototype backed by engineered data flows and inference pipelines, enabling real-time blocking of targeted ads"
-    ],
-  },
-  {
-    title: 'Founder & Data Engineer',
-    company: 'Tech Startup: ONDE\'Child (National Observatory for Children\'s rights Program)',
-    location:'Rabat, Morocco',
-    period: 'Jan 2024 - Jul 2025',
-    achievements: [
-      "Co-founded a tech startup focused on building intelligent digital platforms to support national child protection programs",
-      "Led the design and deployment of machine learning solutions integrated into the core platform, contributing to early risk detection and case prioritization",
-      "Designed AI models for classification and risk assessment trained on structured and semi-structured data from institutional sources",
-      "Engineered robust data pipelines for ingestion, cleaning, and transformation of heterogeneous data sources, enabling efficient model training and real-time analysis",
-      "Developed RESTful APIs to operationalize ML models and embed them into the platform’s backend architecture",
-      "Built NLP tools for automatic analysis and classification of case reports, improving speed and consistency in decision-making by child protection officers"
-    ],
-  },
-  {
-    title: 'Data Engineer & Business Intelligence Consultant',
-    company: 'Leyton',
-    location: 'Casablanca, Morocco',
-    period: 'Jun 2023 - Jan 2024',
-    achievements: [
-      "Designed and implemented ETL pipelines to extract and transform financial data from Salesforce, Odoo, SAP, and other internal systems using Python and Apache Spark",
-      "Automated data workflows to support timely and accurate delivery of processed data for analytics and reporting needs",
-      "Built and maintained scalable data warehouses and data marts using star and snowflake schemas for financial domains such as revenue, expenses, and customer insights",
-      "Developed complex SQL queries for data transformation, aggregation, and performance tuning",
-      "Created interactive dashboards and reports in Power BI & Tableau to track KPIs including revenue trends, customer lifetime value (CLV), churn, and profitability",
-      "Collaborated with business teams to gather requirements and design data models aligned with financial and strategic goals",
-      "Ensured data quality through validation rules, exception handling, and consistent data governance practices",
-      "Enabled self-service BI through intuitive dashboards and structured semantic layers for non-technical users",
-      "Worked cross-functionally with finance, operations, and compliance teams to deliver reliable insights for budgeting and decision-making"
-    ],
-  }
+  
 ]
 
 const education = [
   {
-    degree: 'Engineering Degree in Innovation & AMOA',
-    school: 'National Institute of Posts and Telecommunications (INPT)',
-    location: 'Rabat, Morocco',
+    degree: 'Bachelor\'s Degree in Computer Science',
+    school: 'Arab Open University (AOU)',
+    location: 'Beirut, Lebanon',
     period: '2022 - 2025',
     details: [
-      'Data and Business Engineering Specialization',
-      'Focus on AI, Machine Learning, and Information Systems',
+      'Current GPA: 3.4/4.0',
+      'Relevant Coursework: Data Structures, Algorithms, Database Management, Web Development, Software Engineering',
     ],
   },
   {
-    degree: "Preparatory Classes for Engineering Studies",
-    school: "Lycée Reda Slaoui",
-    location: "Agadir, Morocco",
-    period: "2020 - 2022",
+    degree: "Full stack web development ",
+    school: "Youbee.ai",
+    location: "Beirut, Lebanon",
+    period: "2025 - 2026",
     details: [
-        "Intensive preparation in Mathematics, Physics, and Computer Science",
-        "Focused on problem-solving, analytical thinking, and foundational engineering concepts"
+        "Building modern web applications using Laravel and Angular frameworks",
+        "Implementing responsive design principles to ensure optimal user experience across devices",
     ],
   },
 ]
 
 const skills = {
-  'Programming Languages': ['Python', 'JavaScript', 'SQL'],
-  'Databases': ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite'],
-  'Data & Machine Learning': ['Apache Spark', 'PySpark', 'Pandas', 'Scikit-learn', 'XGBoost', 'LightGBM', 'ETL Processes'],
-  'Data Visualization & BI': ['Matplotlib', 'Seaborn', 'Plotly', 'Tableau', 'Power BI', 'Looker', 'Creating Intuitive Dashboards'],
-  'Web Scraping & Data Extraction': ['Scrapy', 'BeautifulSoup', 'Selenium', 'Custom Crawlers', 'Network-level Analysis', 'DOM-based Analysis'],
-  'Project Management & Collaboration': ['Agile/Scrum Methodologies', 'Cross-functional Team Communication', 'Business Requirements Gathering', 'Documentation']
+  'Programming Languages': ['Python', 'JavaScript', 'SQL', 'HTML5', 'CSS3', 'TypeScript'],
+  'Databases': ['MySQL',  'Django',],
+  'Data & Machine Learning': ['Apache Spark', 'Pandas',],
+  'Project Management & Collaboration': ['Agile', 'Cross-functional Team Communication', 'Business Requirements Gathering', 'Documentation']
 };
 
 
 const certifications = [
-  'HCIA-AI V3.5 Certificate - Huawei (2025)',
-  'Oracle Cloud Infrastructure 2024 Generative AI Certified - Oracle (2024)',
-  'McKinsey Forward Program - McKinsey & Company (2023)',
-  'Foundation of Project Management - Google (2023)',
-  'English Proficiency (C2) - EF SET (2022)',
-]
+  'full-Stack Web Development - Youbee.ai (2026)',
+  'Gemini Certified Educator – Google for Education  October 2025 | Valid Through: October 2028 ',
+  'Machine Learning with Python - Analytics Vidhya (2025)',
+  'Data Science and Machine Learning Bootcamp with R - Udemy (2024)',
 
+]
 const achievements = [
-  "Voices of Deep Tech MEA for 2025",
-  "3rd place in Business Game x Inetum Consulting",
-  "3rd place in ISIC Rabat Hackathon on cyber violence for the project 'Web Shelter'",
-  "1st place in Hult Prize local competition at ENSAM Rabat",
-  "3rd place in ONDE E-Toufoula Hackathon"
+
+"Currently pursuing a Computer Science degree", // Academic status
+  "Proficient in Laravel (PHP Framework) for backend development", // Skill highlight
+  "Experienced with Angular framework for building front-end applications", // Skill highlight
+  "Developed and deployed multiple full-stack Laravel projects", // Project experience
+  "Skilled in building responsive interfaces with Angular and related technologies" // Skill summary
 ]
 
 
 export default function ResumePage() {
   useEffect(() => {
-    document.title = 'Resume | Abdelmajid NIDNASSER - PhD Candidate & Data Engineer'
+    document.title = 'Resume | Hassan Ftouni - Full Stack Developer & Designer';
   }, [])
 
   return (
@@ -187,7 +138,7 @@ export default function ResumePage() {
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <ExternalLink className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">freelancer.com/u/NIDNASSER</span>
+                  <span className="tracking-wide">freelancer.com/u/hassan-ftouni</span>
                 </Link>
                 <Link
                   href={personalInfo.portfolioAlt}
@@ -196,7 +147,7 @@ export default function ResumePage() {
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <ExternalLink className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">abdelmajid.dev</span>
+                  <span className="tracking-wide">hassanftouni.dev</span>
                 </Link>
                 <Link
                   href={`https://${personalInfo.linkedin}`}
@@ -205,7 +156,7 @@ export default function ResumePage() {
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <Linkedin className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">linkedin.com/in/abdelmajid-nidnasser</span>
+                  <span className="tracking-wide">https://www.linkedin.com/hassan-ftouni</span>
                 </Link>
                 <Link
                   href={`https://${personalInfo.github}`}
@@ -214,7 +165,7 @@ export default function ResumePage() {
                   className="group inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-muted/60 to-muted/30 backdrop-blur-sm border border-border/50 text-[11px] sm:text-xs font-medium text-foreground/85 hover:text-foreground hover:from-primary/15 hover:to-accent/15 transition-all shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
                 >
                   <Github className="w-3.5 h-3.5 text-primary/80 group-hover:text-primary transition-colors" />
-                  <span className="tracking-wide">github.com/NIDNASSER-Abdelmajid</span>
+                  <span className="tracking-wide">github.com/hassan-ftouni</span>
                 </Link>
               </div>
 
@@ -414,7 +365,7 @@ export default function ResumePage() {
               <Button variant="outline" size="lg" asChild>
                 <Link href="/projects">
                   <ExternalLink className="w-4 h-4 mr-2" />
-                  View Portfolio
+                  View projects
                 </Link>
               </Button>
             </div>
